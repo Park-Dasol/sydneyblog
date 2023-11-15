@@ -3115,6 +3115,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-multi-carousel@npm:^2.8.4":
+  version: 2.8.4
+  resolution: "react-multi-carousel@npm:2.8.4"
+  checksum: 056b89bfe98adc1267cdf1d757c7276f3394f3465418aee552ce831692ab0befe3882166836c9535fdc76c03395a704d3afafe83ee725ad926745f3a0d1a5802
+  languageName: node
+  linkType: hard
+
 "react@npm:^18":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
@@ -3616,6 +3623,7 @@ __metadata:
     postcss: "npm:^8"
     react: "npm:^18"
     react-dom: "npm:^18"
+    react-multi-carousel: "npm:^2.8.4"
     tailwindcss: "npm:^3.3.0"
     typescript: "npm:^5"
   languageName: unknown
