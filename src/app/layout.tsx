@@ -20,12 +20,17 @@ export default function RootLayout({
       <body className={inter.className}>
       <header className={styles.header}>
         <h1>header title</h1>
-        <nav className="styles.nav">
-          <a href="/contact">contact</a>
+        <nav className={styles.nav}>
+          <a href="/">home</a>
           <a href="/about">about</a>
+          <a href="/posts">posts</a>
+          <a href="/contact">contact</a>
         </nav>
       </header>
       {children}
+      <footer>
+        footer section
+      </footer>
       </body>
     </html>
   )
