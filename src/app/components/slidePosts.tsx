@@ -52,7 +52,7 @@ export default function SlidePosts() {
     autoPlay={true}
     containerClass='carousel-container'
     itemClass='carousel-image-item'
-    autoPlaySpeed={6000}
+    autoPlaySpeed={5000}
     responsive={responsive}>
       {items.map(item=> {
         return (
