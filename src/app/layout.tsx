@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import styles from './layout.module.css'
 import Link from 'next/link'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,20 +20,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-      <header className={styles.header}>
-        <h1>header title</h1>
-        <nav className={styles.nav}>
-          <Link href="/">home</Link>
-          <Link href="/about">about</Link>
-          <Link href="/posts">posts</Link>
-          <Link href="/contact">contact</Link>
-        </nav>
-      </header>
-      {children}
-      <footer>
-        footer section
-      </footer>
+      <body className='flex flex-col w-full max-w-screen-2xl mx-auto'>
+        <Header/>
+        
+        <main className='grow'>
+
+          {children}
+        </main>
+        <Footer/>
+      
       </body>
     </html>
   )

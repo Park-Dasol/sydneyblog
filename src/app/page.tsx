@@ -6,14 +6,14 @@ import SlidePosts from './components/slidePosts'
 
 export default function Home() {
   return(
-    <>
+    <section>
     <Profile></Profile>
     <FeaturedPosts></FeaturedPosts>
     <h1>
       You may like...
     </h1>
     <SlidePosts></SlidePosts>
-    </>
+    </section>
   )
 
 }
